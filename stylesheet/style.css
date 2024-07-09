@@ -34,11 +34,11 @@ body{
 }
 .paragraph {
     font-size: 16px;
-	font-weight: 400px;
+	font-weight: 400;
 	color: #0D1321;
 }
 .banner_p {
-	padding: 24px 0px 32px;
+	padding: 24px 160px 32px 150px;
 }
 .button {
 	color: #fff;
@@ -64,9 +64,31 @@ body{
 
 /* secend_section */
 
+.flex {
+	display: flex;
+    justify-content: space-between;
+}
+.left {
+	width: 40%;
+}
 .secend_section {
     background-color: #fff;
     padding: 58px 48px;
+}
+.change {
+	font-size: 24px;
+	font-weight: bold;
+	color: #0D1321A6;
+}
+.learn-more {
+	padding: 12px 20px;
+	color: #0D1321BA;
+	font-size: 20px;
+	font-weight: bolder;
+	background-color: #ffff;
+}
+.coding{
+    padding: 16px 0px;
 }
 
 
