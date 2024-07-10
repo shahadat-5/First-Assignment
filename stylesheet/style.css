@@ -16,13 +16,41 @@ body{
 	background-color: white;
 }
 
-/* header_section */
+/* Nave section */
+
+.nave_flex {
+	padding: 35px 150px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+.nave-resume {
+	font-size: 20px font-w;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0D1321A3;
+	padding: 17px 24px;
+	display: block;
+	text-decoration: none;
+	background-color: #ffff;
+}
+.nave-name {
+	font-size: 28px;
+	font-weight: bolder;
+	color: #0D1321BA;
+	text-decoration: none;
+}
+
+/* Banner Section */
 
 .banner {
     background-image: url(/B10A1-Challenge-Begins-main/assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 652px;
+}
+.banner-a {
+	text-decoration: none;
 }
 .banner_text {
 	text-align: center;
@@ -41,7 +69,7 @@ body{
 	color: #0D1321A1;
 }
 .banner_p {
-	padding: 24px 162px 32px 162px;
+	padding: 35px 162px 65px 162px;
 }
 .button {
 	color: #fff;
@@ -56,6 +84,10 @@ body{
 
 /* Body-Tittle-Section */
 
+.More {
+	color: #0D1321BA;
+	text-decoration: none;
+}
 .body_tittle {
 	font-size: 32px;
 	font-weight: bolder;
@@ -165,6 +197,30 @@ body{
 .bg-tar3 {
 	background-color: #FFDF000F;
 }
+
+/* My Next Target */
+
+.next-target_box {
+	display: flex;
+	padding: 40px;
+	gap: 24px;
+	border: 1px solid #00000014;
+	border-radius: 16px;
+	align-items: center;
+}
+.next-target-h2 {
+	padding: 0px;
+}
+.paragraph.next-target-p {
+	padding: 15px 0px;
+}
+.m_y {
+	margin: 20px 0px;
+}
+
+
+
+
 
 /* Support Section */
 
