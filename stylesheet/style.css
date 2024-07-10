@@ -114,9 +114,102 @@ body{
 
 /* Video-Section */
 
-.body-last-section {
-    
+.video_section {
+	text-align: center;
 }
+.video-border {
+	padding: 32px;
+	border-radius: 16px;
+}
+.video_section {
+	text-align: center;
+	background-color: #00000012;
+	border-radius: 16px;
+}
+.inspiration {
+	padding: 130px 100px 48px 100px;
+}
+
+/* My Current Target */
+
+.flex-target {
+	display: flex;
+	justify-content: space-between;
+	gap: 25px;
+}
+.target-box {
+	background-color: #FF4C1E14;
+	padding: 40px;
+	border-radius: 16px;
+}
+.target-box-titel {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #0D1321;
+	padding: 24px 0px 8px;
+}
+.paragraph-ter {
+	padding-bottom: 43px;
+}
+.target-a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0D1321;
+}
+.bg-tar2 {
+	background-color: #004CE80F;
+}
+.bg-tar3 {
+	background-color: #FFDF000F;
+}
+
+/* Support Section */
+
+.support-text-box {
+	text-align: center;
+}
+.support-box {
+	background-image: url(/B10A1-Challenge-Begins-main/assets/handshake.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 48px 64px;
+	margin: 50px 0px 100px;
+	border-radius: 16px;
+	height: 28vh;
+	background-size: cover;
+}
+.support-h2 {
+	color: #fff;
+}
+.feetback-p {
+	color: #FFFFFFB2;
+}
+.submmit {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding: 17px 20px;
+	width: 120px;
+	border-radius: 8px;
+}
+.feetback-input {
+	font-size: 16px;
+	font-weight: 400;
+	color: #0D1321;
+	padding: 20px 19px;
+	border-radius: 8px;
+	width: 548px;
+	margin: 24px 16px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
